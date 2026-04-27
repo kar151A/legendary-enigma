@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Runway Calculator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container">
+    <h1>Runway Calculator</h1>
+    <p class="subtitle">Want to know how long your startup can survive</p>
+
+    <div class="input-group">
+      <label>Total Cash on Hand (₹)</label>
+      <input type="number" id="cash" placeholder="e.g. 500000" />
+    </div>
+
+    <div class="input-group">
+      <label>Monthly Burn Rate (₹)</label>
+      <input type="number" id="burn" placeholder="e.g. 50000" />
+    </div>
+
+    <button onclick="calculateRunway()">Calculate Runway</button>
+
+    <div id="result" class="result">
+      <h2>-- Months</h2>
+      <p>Status: --</p>
+
+      <div class="progress-bar">
+        <div id="progress"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
