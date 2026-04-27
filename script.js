@@ -64,7 +64,7 @@ function calculateRunway() {
 
   resultDiv.className = className;
 
-  // Progress bar (max cap at 12 months for visual scale)
+  
   const percent = Math.min((runway / 12) * 100, 100);
   progressBar.style.width = percent + "%";
   progressBar.style.background = progressColor;
