@@ -97,17 +97,17 @@ button:hover {
 
 .safe {
   background: #d1fae5;
-  color: #065f46;
+  color: #058224;
 }
 
 .warning {
   background: #fef3c7;
-  color: #92400e;
+  color: #c7dc08;
 }
 
 .danger {
   background: #fee2e2;
-  color: #991b1b;
+  color: #ca1616;
 }
 
 
