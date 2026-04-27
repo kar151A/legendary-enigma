@@ -1,4 +1,4 @@
-# 🚀 Runway Calculator
+# 🚀 legendary-enigma
 
 A simple and intuitive tool to help founders understand how long their startup can survive based on current finances.
 
@@ -51,5 +51,5 @@ Runway (months) = Total Cash / Monthly Burn Rate
 ## 📁 Setup
 
 ```bash
-git clone https://github.com/your-username/runway-calculator.git
+git clone https://github.com/kar151A/legendary-enigma.git
 open index.html
